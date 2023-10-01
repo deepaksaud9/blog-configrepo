@@ -16,6 +16,6 @@ spring:
 
         - id: auth-service
           uri: lb://AUTH-SERVICE
-          presicates:
+          predicates:
             -Path=/api/auth/**
 
